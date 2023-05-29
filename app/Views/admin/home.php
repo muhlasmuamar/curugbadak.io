@@ -1,0 +1,43 @@
+<?= $this->extend('admin/layout/template'); ?>
+
+<?= $this->section('content'); ?>
+<h3 class="text-center">
+    <?= $hal; ?>
+</h3>
+
+<div class="text-center mt-4">
+    <img src="<?= base_url('foto/home.png') ?>" class="rounded" alt="...">
+</div>
+<div class="text-left mt-3">
+    <p>
+        Tasikmalaya merupakan salah satu daerah di Jawa Barat yang menyajikan banyak destinasi wisata. Wisatanya pun beragam, mulai dari kekayaan kuliner hingga alam yang indah. Salah satu objek wisata alam yang baru-baru ini dibuka oleh pemerintah adalah Curug Badak.
+
+        Air terjun ini berada di dalam kawasan hutan pinus yang asri. Berwisata kemari bisa membantu melepaskan penat sejenak dari kesibukan sehari-hari.
+
+        Tiket Masuk Curug Badak
+        Harga tiket masuk yang harus dibayar oleh pengunjung Curug Badak terbilang murah dan terjangkau. Tiket belum termasuk retribusi parkir dan sewa tikar.
+    </p>
+    <br>
+    <h4>
+        Curug Badak
+    </h4>
+    <p>
+        Curug Badak mengacu pada sepasang air terjun di kawasan Gunung Talaga Bodas. Lokasinya berada di tebing yang dikelilingi area hutan. Air terjun tertinggi bisa mencapai tinggi 40 meter.
+
+        Namanya datang dari batu yang berada di tengah aliran salah satu air terjun. Batu tersebut berbentuk agak lonjong. Saat debit air sedang tinggi, batu itu tampak menyembul dari balik aliran air yang deras. Warga setempat menyebutnya mirip cula badak, sehingga air terjun ini dinamakan Curug Badak.
+
+        Yang menarik dari curug ini adalah kandungan airnya. Air yang mengalir dari curug ternyata mengandung belerang. Ini kemungkinan karena air mengalir dari Gunung Talaga Bodas. Di sekitar lokasi jatuhan air, bebatuan terlihat agak menguning karena belerang dan berbau menyengat.
+
+        Karena adanya belerang, warga percaya bahwa air ini bisa menyembuhkan berbagai penyakit terutama penyakit kulit. Namun, tidak disarankan mandi di sekitar curug ketika debit air sedang tinggi.
+    </p>
+    <br>
+    <h4>
+        Curug Batu Hanoman
+    </h4>
+    <p>
+        Curug Hanoman atau Batu Hanoman adalah air terjun lainnya yang bisa ditemukan di sekitar Curug Badak. Bentuknya landai dan menyerupai sungai berarus deras. Dari jauh, bentuknya tampak seperti ekor kera berwarna putih. Inilah alasan pemberian nama “Hanoman” untuk air terjun tersebut.
+
+        Curug Hanoman bisa ditemukan di area pinggir bukit. Jaraknya sekitar 25 meter dari Curug. Kolamnya lebih dangkal dan lebih luas. Pengunjung bisa leluasa bermain air di area curug ini.
+    </p>
+</div>
+<?= $this->endSection(); ?>
